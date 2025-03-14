@@ -3,6 +3,12 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --rich-black: #01161eff;
+    --midnight-green: #124559ff;
+    --air-force-blue: #598392ff;
+    --ash-gray: #aec3b0ff;
+    --beige: #eff6e0ff;
+
 }
 
 body {
@@ -11,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: var(--midnight-green);
 }
 
 
@@ -25,7 +31,7 @@ section {
 }
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--rich-black);
     font-weight: 600;
 }
 
@@ -61,7 +67,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--air-force-blue);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -73,7 +79,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--midnight-green);
 }
 
 
@@ -102,11 +108,11 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--rich-black);
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: var(--air-force-blue);
 
 }
 
@@ -124,7 +130,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: var(--midnight-green);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -135,12 +141,12 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: var(--midnight-green);
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: white;
 }
